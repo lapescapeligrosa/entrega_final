@@ -5,8 +5,8 @@ Lo primero es definir tres colores, los que deberían coincidir con los utilizad
 ------------------------------------------------------------------------------------------------- */
 
 :root {
-  --primercolor: #24125f; 
-  --segundocolor: #FA008A; /* menos luminoso */
+  --primercolor: #FA008A; 
+  --segundocolor: #24125f; /* menos luminoso */
   --tercercolor: #FFFFFF; /* más luminoso */
   --colorclaro: rgba(255,255,255,0.8);
   --coloroscuro: rgba(0,0,0,0.8);
@@ -60,7 +60,7 @@ De tal manera podría "fundirse" con el color de fondo, ofreciendo continuidad, 
 ------------------------------------------------------------------------------------------------- */
 
 header{
-    background-color:var(--primercolor);
+    background-color:var(--segundocolor);
     background-image:url('img/wireframe-aspect_ratio-1-1.png');
     background-position: center top;
     background-repeat: no-repeat;
