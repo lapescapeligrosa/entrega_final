@@ -39,7 +39,7 @@ a{
 }
 
 a:hover{
-    color:var(--tercercolor);
+    color:var(--colorclaro);
     text-decoration: none;
 }
 
