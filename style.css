@@ -107,8 +107,8 @@ main{
 }
 
 aside{
-    background:var(--primercolor);
-    color:var(--colorclaro);
+    background:var(--tercercolor);
+    color:var(--coloroscuro);
 }
 
 footer{
