@@ -34,7 +34,7 @@ body{
 }
 
 a{
-    color:var(--colorclaro);
+    color:var(--primercolor);
     text-decoration: underline;
 }
 
@@ -65,7 +65,7 @@ header{
     background-position: center top;
     background-repeat: no-repeat;
     background-size:100% auto;
-    color:var(--primercolor);
+    color:var(--colorclaro);
 }
 
 @media (min-width: 576px) { 
