@@ -204,21 +204,17 @@
             // comenzamos con p5.js
             function setup() {
   createCanvas(700, 400);
-            function setup() {
-                var canvas = createCanvas(w, h);
-                canvas.parent("#p5");
-            }
+}
 
-            function draw() {
-                if (mouseIsPressed) {
-                fill(30);
-                } else { 
-                    fill(180);
+function draw() {
+  if (mouseIsPressed) {
+    fill(30);
+  } else {
+    fill(180);
   }
   ellipse(mouseX, mouseY, 8, 8);
 }
-                
-
+  
             function windowResized() {
                 resizeCanvas(w, h);
             }
