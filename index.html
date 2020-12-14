@@ -208,13 +208,12 @@
             }
 
             function draw() {
-             if (mouseIsPressed) {
-             fill(30);
-             } else {
-             fill(255);
-             }
-             ellipse(mouseX, mouseY, 8, 8);
-             }
+            stroke (255);
+            if (mouseIsPressed === true) {
+              line (mouseX, mouseY, pmouseX, pmouseY);
+              } 
+            }
+  
 
             function windowResized() {
                 resizeCanvas(w, h);
